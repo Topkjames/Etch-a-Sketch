@@ -1,13 +1,13 @@
 :root {
-  --primary-color: #4caf50;
+  --primary-color: #16bcfd;
   --secondary-color: #f0f0f0;
-  --text-color: #03270c;
+  --text-color: #07226b;
   --dark-text-color: #181818;
   --font-family: "Roboto", sans-serif;
 }
 
 * {
-  box-sizing: border-box;
+  box-sizing:;
 }
 
 body {

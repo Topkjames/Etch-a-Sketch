@@ -23,3 +23,14 @@ function createGrid(size) {
 }
 
 createGrid(16);
+
+btn.addEventListener("click", () => {
+  const newSize = prompt("Enter new grid size (1-100):");
+  let size = parseInt(newSize);
+
+  if (size >= 1 && size <= 100) {
+    createGrid(size);
+  } else {
+    alert("Please enter a number between 1 and 100.");
+  }
+});
