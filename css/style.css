@@ -38,3 +38,23 @@ h1 {
   border: 1px solid var(--dark-text-color);
   margin: auto;
 }
+
+#clear-btn {
+  margin: 20px auto;
+  display: block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bolder;
+  border-radius: 10px;
+  color: var(--secondary-color);
+  background-color: var(--text-color);
+  border: none;
+}
+
+#clear-btn:hover {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  cursor: pointer;
+  padding: 12px 24px;
+  transition: all 0.3s ease;
+}
