@@ -11,7 +11,7 @@ function createGrid(size) {
     square.style.width = `${squareSize}px`;
     square.style.height = `${squareSize}px`;
 
-    square.addEventListener("mouseover", () => {
+    square.addEventListener("mouseenter", () => {
       const r = Math.floor(Math.random() * 256);
       const g = Math.floor(Math.random() * 256);
       const b = Math.floor(Math.random() * 256);
